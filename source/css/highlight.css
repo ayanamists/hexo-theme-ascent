@@ -10,7 +10,7 @@
   --highlight-aqua-color: #40b7bf;
   --highlight-blue-color: #528fe0;
   --highlight-purple-color: #ab5fdd;
-  --highlight-stack: "Roboto Mono", "Inconsolata", "Consolas", monospace;
+  --highlight-stack: "mononoki", "Roboto Mono", "Inconsolata", "Consolas", monospace;
 }
 
 code {

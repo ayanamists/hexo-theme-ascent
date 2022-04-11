@@ -11,9 +11,11 @@
   --link-hover-color: #618794;
   --link-bg-color: #dae4e7;
   --selection-color: #dae4e7;
-  --body-stack: "Lora", "Georgia", "Times New Roman", serif;
-  --secondary-stack: "Lato", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Verdana", sans-serif;
+  --body-stack: "Garamond", "Lora", "Georgia", "Times New Roman", serif;
+  --secondary-stack: "mononoki", "Lato", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Verdana", sans-serif;
   --title-stack: "Playfair Display SC", "Georgia", serif;
+  --title-stack: "STKaiti" ,"KaiTi", "KaiTi_GB2312", "Garamond", "Lora", "Georgia", "Times New Roman", serif;
+  --std-width: 48em;
 }
 
 html {
@@ -41,7 +43,7 @@ body {
   margin: 3rem auto 10rem auto;
   max-width: 100%;
   padding: 1em;
-  width: 32em;
+  width: var(--std-width);
 }
  
 @media all and (max-width:760px) {#wrapper {margin-top: 3rem;}}
@@ -236,7 +238,8 @@ ul, ol {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
+  font-family: var(--title-stack);
+  font-weight:normal;
   letter-spacing: 0.1em;
   text-align: center;
   text-decoration: none;
